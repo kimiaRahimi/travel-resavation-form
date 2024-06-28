@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="header"><b>Travel reservation form</b></p>
+    <p class="pclass"><b><sup>*</sup>denotes mandotory</b></p>
+    <form action="https://www.tourradar.com/">
+        <label for="fname">Full Name <sup>*</sup>:</label><br>
+        <input type="text" name="fname" id="fname" placeholder="FirstName LastName" size="25" required><br>
+        <label for="Email">Email Address <sup>*</sup>:</label> <br>
+        <input type="text" name="Email" id="Email" placeholder="Email_Address" size="25" required><br>
+        <label for="tourpackage">Select Tour Package <sup>*</sup>:</label><br>
+        <input list="tour" id="tourpackage" name="tourpackage" size="10" required>
+        <datalist id="tour">
+            <option value="Goa"></option>
+            <option value="maldives"></option>
+            <option value="bali"></option>
+        </datalist><br>
+        <label for="date">Arrival date <sup>*</sup>:</label><br>
+        <input type="date" name="date" id="date" style="width:200px;" required><br>
+        <label for="number">Number of Persons <sup>*</sup>:</label><br>
+        <input type="number" name="number" id="number" placeholder="UNKNOWN_TYPE" style="width: 200px;" required><br>
+        <label for="avail">What would you want to avail?<sup>*</sup></label><br>
+        <label for="Boarding">Boarding</label>
+        <input type="checkbox" name="Boarding" id="Boarding">
+        <br>
+        <label for="Fooding">Fooding</label>
+        <input type="checkbox" name="Fooding" id="Fooding" >
+        <br>
+        <label for="sightseeing">Sight Seeing</label>
+        <input type="checkbox" name="sightseeing" id="sightseeing" ><br>
+        <label for="coupon">Discout Coupon code:</label><br>
+        <input type="text" name="coupon" id="coupon" size="25" placeholder="UNKNOWN_TYPE"><br>
+        <label for="condition">Terms and Conditions <sup>*</sup></label><br>
+        <input type="radio" name="condition" id="condition">
+        <label for="condition">I agree</label>
+        <input type="radio" name="condition" id="condition">
+        <label for="condition">I disagree</label><br>
+        <input type="submit" value="Compelet reservation" style="font-size:17px;">
+        
+
+
+
+    </form>
+</body>
+</html>

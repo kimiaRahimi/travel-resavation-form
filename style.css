@@ -1,0 +1,16 @@
+.header{
+    font-size: 40px;
+}
+.pclass{
+    font-size:20px;
+}
+body{
+    margin-left: 15px;
+}
+label{
+    font-size:22px ;
+}
+input{
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+
